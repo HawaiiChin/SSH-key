@@ -1,0 +1,7 @@
+$ ssh-keygen -t rsa -C "hawaiichin@live.com.au"
+$ cat ~/.ssh/id_rsa.pub
+* settings>SSH and GPG keys>SSHkeys add new
+*verify local connecting
+$ ssh -T hawaiichin@live.com.au
+$ git config --global user.name"HawaiiChin"
+$ git config --global user.email"hawaiichin@live.com.au"
