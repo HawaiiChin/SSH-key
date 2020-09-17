@@ -5,3 +5,5 @@ $ cat ~/.ssh/id_rsa.pub
 $ ssh -T hawaiichin@live.com.au
 $ git config --global user.name"HawaiiChin"
 $ git config --global user.email"hawaiichin@live.com.au"
+*change passphrase
+$ ssh-keygen -p
